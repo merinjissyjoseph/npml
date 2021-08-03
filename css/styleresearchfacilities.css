@@ -71,6 +71,10 @@
     text-align: justify;
   
 }
+#researchFacilities img{
+    width: 450px;
+    height: 225px;
+}
 /* .card-header{
     font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
     font-weight: bolder;

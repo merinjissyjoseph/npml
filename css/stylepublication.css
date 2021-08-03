@@ -63,7 +63,7 @@
 }
 #publicationsList li{
     font-size: large;
-    padding-bottom: 15px ;
+    /* padding-bottom: 15px ; */
     text-align: justify;
     
 }
@@ -80,24 +80,22 @@ h4{
     color: red;
 }
 #graphabstract{
-    padding:25px;
-    margin-left: 25%;
-    column-width: 300px;
-    /* width: fit-content; */
+    /* padding:25px;
+    margin-left: 25%; */
+    width: 580px;
+   height: 180px;
 }
 #graphabstract1{
-    padding:25px;
-    /* margin-left: 15%; */
     padding-right: 10%;
-    column-width: 400px;
-    /* width: fit-content; */
-}
+   width: 320px;
+   height: 240px;
+    }
 
 
-img{
-    width:100%;
-    height:auto;
-}
+/* img{
+    width:320px;
+    height:240px;
+} */
 
 #byYear{
     margin-top: 100px;
