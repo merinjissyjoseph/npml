@@ -1,0 +1,87 @@
+.navbar{
+    height: 75px;
+}
+.navbar-nav {
+    margin-left: auto;
+}
+#navbarSupportedContent li{
+    /* margin-left: 2px; */
+    /* margin-right: 5px; */
+    font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+    font-size: large;
+    color: white;
+
+}
+.navbar-brand{
+    color: white;
+}
+.navbar-brand:hover {
+    color:grey;
+}
+
+#header1{
+    background-color: black !important;
+    color: white !important;
+}
+.nav-link {
+    color: white;
+}
+
+.nav-item>a:hover {
+    color:grey;
+}
+.active a{
+    color:yellow !important;
+  }
+#navarbar_title{
+   margin-right: 20%;
+   font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+   font-size: x-large;
+   font-weight: bolder;
+   /* color: yellow; */
+   /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item
+{background-color: black !important;
+    color: white;!important
+}
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover
+{background-color: grey !important;
+}
+
+#ourGroup{
+    font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+    background-color: black;
+    color: white;
+}
+.column{
+    padding: 20px;
+}
+/* self Intro */
+#selfIntro h3{
+    padding-top: 30px;
+    font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+}
+#aboutme{
+    padding-top: 30px;
+    padding-left :50px;
+    text-align: justify;
+    font-family: 'Raleway';
+    /* font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size: large;
+}
+#contact{
+    padding: 10px;
+}
+#mypic{
+    float:right;
+    padding-top: 30px;
+    padding-left: 75px;
+    padding-right: 50px;
+    width:50%;
+}
+img{
+    width:100%;
+    height:auto;
+}

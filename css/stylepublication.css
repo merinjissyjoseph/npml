@@ -1,0 +1,104 @@
+.navbar{
+    height: 75px;
+}
+.navbar-nav {
+    margin-left: auto;
+}
+#navbarSupportedContent li{
+    /* margin-left: 2px; */
+    /* margin-right: 5px; */
+    font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+    font-size: large;
+    color: white;
+
+}
+.navbar-brand{
+    color: white;
+}
+.navbar-brand:hover {
+    color:grey;
+}
+
+#header1{
+    background-color: black;!important
+    color: white;!important
+}
+.nav-link {
+    color: white;
+}
+
+.nav-item>a:hover {
+    color:grey;
+}
+.active a{
+    color:yellow !important;
+  }
+#navarbar_title{
+   margin-right: 20%;
+   font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+   font-size: x-large;
+   font-weight: bolder;
+   /* color: yellow; */
+   /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item
+{background-color: black !important;
+    color: white;!important
+}
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover
+{background-color: grey !important;
+}
+
+#ourGroup{
+    font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+    background-color: black;
+    color: white;
+}
+/* Publications */
+#publicationsList{
+    margin-left: 10%;
+    /* margin-right: 10%; */
+    padding-right: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#publicationsList li{
+    font-size: large;
+    padding-bottom: 15px ;
+    text-align: justify;
+    
+}
+#data1{
+    padding-top: 15px;
+}
+#heading2{
+    text-align: center;
+    font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+
+
+}
+h4{
+    color: red;
+}
+#graphabstract{
+    padding:25px;
+    margin-left: 25%;
+    column-width: 300px;
+    /* width: fit-content; */
+}
+#graphabstract1{
+    padding:25px;
+    /* margin-left: 15%; */
+    padding-right: 10%;
+    column-width: 400px;
+    /* width: fit-content; */
+}
+
+
+img{
+    width:100%;
+    height:auto;
+}
+
+#byYear{
+    margin-top: 100px;
+}

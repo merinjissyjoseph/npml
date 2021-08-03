@@ -1,0 +1,81 @@
+.navbar{
+    height: 75px;
+}
+.navbar-nav {
+    margin-left: auto;
+}
+#navbarSupportedContent li{
+    /* margin-left: 2px; */
+    /* margin-right: 5px; */
+    font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+    font-size: large;
+    color: white;
+
+}
+.navbar-brand{
+    color: white;
+}
+.navbar-brand:hover {
+    color:grey;
+}
+
+#header1{
+    background-color: black;!important
+    color: white;!important
+}
+.nav-link {
+    color: white;
+}
+
+.nav-item>a:hover {
+    color:grey;
+}
+.active a{
+    color:yellow !important;
+  }
+#navarbar_title{
+   margin-right: 20%;
+   font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+   font-size: x-large;
+   font-weight: bolder;
+   /* color: yellow; */
+   /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item
+{background-color: black !important;
+    color: white;!important
+}
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover
+{background-color: grey !important;
+}
+
+#ourGroup{
+    font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+    background-color: black;
+    color: white;
+}
+/* Research Facilities */
+#researchFacilities{
+    padding-top: 20px;
+     margin-left: 20px;
+  
+}
+#researchFacilities h3{
+    font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+    font-weight: bolder;
+  
+}
+#researchFacilities p{
+    font-family: 'Raleway';
+    font-size:large;
+    text-align: justify;
+  
+}
+/* .card-header{
+    font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+    font-weight: bolder;
+    font-size: x-large;
+.card-body{
+    font-family: 'Raleway';
+    font-size:large;
+} */

@@ -1,0 +1,86 @@
+.navbar{
+  height: 75px;
+}
+.navbar-nav {
+  margin-left: auto;
+}
+#navbarSupportedContent li{
+  /* margin-left: 2px; */
+  /* margin-right: 5px; */
+  font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  font-size: large;
+  color: white;
+
+}
+.navbar-brand{
+  color: yellow;
+}
+.navbar-brand:hover {
+  color:grey;
+}
+
+#header1{
+  background-color: black;!important
+  color: white;!important
+}
+.nav-link {
+  color: white;
+}
+
+.nav-item>a:hover {
+  color: grey;
+}
+.active a{
+  color:yellow !important;
+}
+#navarbar_title{
+ margin-right: 20%;
+ font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+ font-size: x-large;
+ font-weight: bolder;
+ /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+#carouselblock{
+   padding-top: 2px;
+  margin-left: 2px;
+  width: auto;
+  height: 350px;
+}
+#theimage{
+  /* object-fit: cover; */
+  height: 350px;
+/* width:100%; */
+}
+.carousel img {
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+  min-width: 100%;
+  height: 350px;
+  max-width: none;
+}
+/* .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+  display: block;
+  height: auto;
+  width: 100%; // Add this
+  } */
+/* .carousel-inner{
+  height: 500px;
+} */
+/* .carousel .carousel-item {
+  height: 300px;
+} */
+/* Introduction and Updates */
+#intro{
+  margin-top: 5px;
+  padding: 20px;
+  
+  text-align: justify;
+}
+#news h6{
+  text-align: center;
+  font-weight: bold;
+}
+#news{
+  margin-top: 5px;
+}

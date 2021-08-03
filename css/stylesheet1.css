@@ -1,0 +1,72 @@
+#navbarSupportedContent li{
+    /* margin-left: 2px; */
+    /* margin-right: 5px; */
+    font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+    font-size: large;
+    color: white;
+
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+}
+#navarbar_title{
+   margin-right: 20%;
+   font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+   font-size: x-large;
+   font-weight: bolder;
+   /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+
+#content1{
+    padding: 10px
+}
+#bghome{
+background-repeat: no-repeat;
+background-size: cover;
+height: 250px
+
+}
+#intro{
+    padding: 20px;
+    margin-top: 10%;
+    text-align: justify;
+}
+#news h6{
+    text-align: center;
+    font-weight: bold;
+}
+#news{
+    margin-top: 10%;
+}
+.footer{
+    text-align: center;
+    margin-top: 90%;
+    padding: 1px;
+    background-color: cadetblue;
+}
+ #carouselblock{
+     padding-top: 2px;
+    margin-left: 35%;
+    /* margin-right: 20%; */
+    width: 30%;
+    height: 350px;
+}
+/* .carousel-inner{
+    height: 500px;
+} */
+#theimage{
+    object-fit: cover;
+    height: auto;
+  width:100%;
+}
+/* .carousel-item {
+    width:100%;
+    height: 100%;
+} */
+
+/* .carousel-inner  img{
+    width: auto;
+    /* height: auto; */
+ 
