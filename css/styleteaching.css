@@ -49,6 +49,36 @@
 {background-color: grey !important;
 }
 
+@media only screen and (max-width: 768px) {
+    .navbar{
+     height: 55px;
+    } 
+    .bg-black1{background-color: darkcyan;
+    }
+    .navbar-brand{
+    margin-top: 1px;
+    }
+    .navbar-header {
+       float: none;
+    }
+    .navbar-collapse{
+       /* position: absolute; */
+       display: block;
+       padding-top: 1%;
+       background-color: black;
+      
+       z-index: 999;
+    }
+    .nav-item>a:hover {
+     color:grey;
+    }
+    .active a{
+     color:yellow !important;
+    }
+    
+    } 
+    
+
 #ourGroup{
     font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
     background-color: black;

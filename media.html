@@ -5,64 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+   <link href="css/font-awesome.min.css" rel="stylesheet">
      <link rel="stylesheet" href="./css/stylesheetmedia.css">
     <title>NPMLAB</title>
 
 </head>
 <body>
  <!-- Nav bar begins -->
- <nav class="navbar navbar-expand-lg " id="header1">
+ <nav class="navbar navbar-expand-lg navbar-dark bg-black1 " id="header1">
   <!-- <nav class="navbar navbar-light navbar-custom"> -->
     <div class="container-fluid"  >
-      <a class="navbar-brand " id="navarbar_title" href="./index.html">NanoPorous Materials Lab</a>
+      <a class="navbar-brand  d-none d-md-block " id="navarbar_title" href="./index.html">NanoPorous Materials Lab</a>
+      <a class="navbar-brand  d-md-none" id="navarbar_title"  href="./index.html">NPML</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
-       aria-expanded="false" aria-label="Toggle navigation">
+       aria-expanded="true" aria-label="Toggle navigation">
+       <!-- <span><i class="fas fa-bars"></i></span> -->
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ">
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
+            <a class="nav-link dropdown-toggle text-white" data-toggle="dropdown" href="#"
              role="button" data-bs-toggle="dropdown" aria-expanded="false">
              Research
             </a>
          
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="ourGroup">
-              <li><a class="dropdown-item" id="groupCategory" href="./research.html">Research areas</a></li>
-              <li><a class="dropdown-item" id="groupCategory"  href="./researchfacilities.html">Research facilities</a></li>               
+              <li><a class="dropdown-item text-white" id="groupCategory" href="./research.html">Research areas</a></li>
+              <li><a class="dropdown-item text-white" id="groupCategory"  href="./researchfacilities.html">Research facilities</a></li>               
             </ul>
           </li>
 
           
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
+            <a class="nav-link dropdown-toggle text-white" data-toggle="dropdown" href="#"
              role="button" data-bs-toggle="dropdown" aria-expanded="false">
              Our Group
             </a>
       
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="ourGroup">
-              <li><a class="dropdown-item" id="groupCategory" href="./myself.html">About PI</a></li>
-              <li><a class="dropdown-item" id="groupCategory"  href="./members.html">Members</a></li>               
+              <li><a class="dropdown-item text-white" id="groupCategory" href="./myself.html">About PI</a></li>
+              <li><a class="dropdown-item text-white" id="groupCategory"  href="./members.html">Members</a></li>               
             </ul>
           </li> 
           <li class="nav-item">
-            <a class="nav-link" href="./publications.html">Publications</a>
+            <a class="nav-link text-white" href="./publications.html">Publications</a>
           </li>
          
           <li class="nav-item">
-            <a class="nav-link" href="./teaching.html">Teaching</a>
+            <a class="nav-link text-white" href="./teaching.html">Teaching</a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="./media.html">Media & Gallery</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./openpositions.html">Openings</a>
+            <a class="nav-link text-white" href="./openpositions.html">Openings</a>
           </li>
           
           
@@ -73,7 +73,7 @@
     </div>
   </nav>
   <div class="container"id="mediadetails">
-  <div class="row">
+ 
    
   <div class="col-md-12" >
     <div  id="multimedia">
@@ -84,8 +84,8 @@
       <video width="320" height="240" controls>
         <source src="./Media/Beilstein video.mp4" type="video/mp4">
 
-      </video> 
-    </div> 
+      </video>
+    </div>
     <br>
     <br>
     <br>
@@ -105,20 +105,44 @@
     <div>
       <h4>Electrophoretic crystallization of metal-organic framework membranes</h4>
       <div style="width: 320px;height: 240px;">
-          
-        <a href=https://www.jove.com/v/58301/electrophoretic-crystallization-ultrathin-high-performance-metal><img src="./Media/JoVE.png" > </a>
+          <a href=https://www.jove.com/v/58301/electrophoretic-crystallization-ultrathin-high-performance-metal>
+            <img src="./Media/JoVE.png" > 
+          </a>
       </div> 
     </div>
     <br>
     <br>
   </div>
+  </div>
+ 
   <br>
   <br>
-  <br>
-  <br>
+  <!-- <br>
+  <br> -->
+  <!-- Carousel starts here -->
 
+  <div class="container-fluid" id="imageBlock" >      
+    <div class="row">
+      <div class="col-md-4">
+        <img class=" img-fluid "  id="theimage" src="./images/media mentions/JMCA.png" alt="JMCA"class="img-responsive">
+      </div>
+      <!-- <div class="col-md-1"></div> -->
+      <div class="col-md-4">
+        <img class=" img-fluid "  id="theimage" src="./images/media mentions/AdvMat.jpg" alt="Adv Materials"class="img-responsive">
+      </div>
+      <!-- <div class="col-md-1"></div> -->
+      <div class="col-md-4">
+        <img class=" img-fluid "  id="theimage" src="./images/media mentions/ChemMat.jpg" alt="Chem Mat"class="img-responsive">
+      </div>
+
+    </div>
+   </div>
+  <!-- Carousel ends here -->
+  <br>
+  <br>
   <div id="mediaMentions">
-    <h2>Media Mentions</h2>
+  <h2>Media mentions</h2>
+   
     <ul id="mediaref">
      
       <br>
@@ -172,7 +196,7 @@
       <li>
         <a href="https://publishing.aip.org/publications/latest-content/better-trap-for-greenhouse-gases">
           Better Trap for Greenhouse Gases.</a>
-          <i>AIP Publishing LLC, </i> <b>September 15, 2015</b>.
+          <i>AIP Publishing , </i> <b>September 15, 2015</b>.
 
        <div class="container " id="graphabstract1"> 
            <img src="./images/media mentions/Better trap.png" >
@@ -185,5 +209,8 @@
 
   </div>
 </div>
+<!-- scripts -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
 </body>
 </html>
