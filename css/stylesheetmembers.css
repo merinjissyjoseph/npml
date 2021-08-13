@@ -92,6 +92,12 @@
     font-size: x-large;
     font-weight: bolder;
 }
+#memberDetails h4{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight: bold; */
+}
 #memberDetails p{
     font-family: 'Raleway';
     font-size: medium;
