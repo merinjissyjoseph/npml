@@ -129,4 +129,8 @@
     font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
     font-size:larger ;
   }
+  #imageHome{
+    max-width: 100%;
+    height: auto;
+  }
   
